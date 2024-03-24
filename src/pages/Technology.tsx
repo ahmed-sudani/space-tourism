@@ -8,7 +8,7 @@ export default function Technology() {
   const { setPause } = useCarousel(setActive, technology.length);
 
   return (
-    <div className="flex flex-col h-screen overflow-auto bg-no-repeat bg-fixed bg-center bg-cover bg-[url('assets/technology/background-technology-mobile.jpg')] md:bg-[url('assets/technology/background-technology-tablet.jpg')] xl:bg-[url('assets/technology/background-technology-desktop.jpg')]">
+    <div className="flex flex-col h-screen overflow-auto bg-no-repeat bg-fixed bg-center bg-cover bg-[url('/assets/technology/background-technology-mobile.jpg')] md:bg-[url('/assets/technology/background-technology-tablet.jpg')] xl:bg-[url('/assets/technology/background-technology-desktop.jpg')]">
       <Header />
       <main className="pt-6 md:pt-10 xl:pl-40 xl:pr-0 md:pb-0 flex flex-col items-start flex-grow gap-8 md:gap-[60px] xl:gap-0">
         <h5 className="py-4 px-6 xl:p-0 uppercase text-base md:text-xl mx-auto md:mx-0 text-white">

@@ -3,7 +3,7 @@ import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <div className="h-screen overflow-auto flex flex-col text-white bg-no-repeat bg-fixed bg-center bg-cover bg-[url('assets/home/background-home-mobile.jpg')] md:bg-[url('assets/home/background-home-tablet.jpg')] xl:bg-[url('assets/home/background-home-desktop.jpg')]">
+    <div className="h-screen overflow-auto flex flex-col text-white bg-no-repeat bg-fixed bg-center bg-cover bg-[url('/assets/home/background-home-mobile.jpg')] md:bg-[url('/assets/home/background-home-tablet.jpg')] xl:bg-[url('/assets/home/background-home-desktop.jpg')]">
       <Header />
       <main className="p-6 md:p-10 xl:pl-40 xl:px-36 md:pb-0 flex flex-col xl:flex-row justify-between items-center overflow-auto flex-grow gap-8 md:gap-[60px]">
         <div className="md:max-w-[450px]">

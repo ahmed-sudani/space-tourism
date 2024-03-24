@@ -8,7 +8,7 @@ export default function Crew() {
   const { setPause } = useCarousel(setActive, crew.length);
 
   return (
-    <div className="flex flex-col h-screen overflow-auto bg-no-repeat bg-fixed bg-center bg-cover bg-[url('assets/crew/background-crew-mobile.jpg')] md:bg-[url('assets/crew/background-crew-tablet.jpg')] xl:bg-[url('assets/crew/background-crew-desktop.jpg')]">
+    <div className="flex flex-col h-screen overflow-auto bg-no-repeat bg-fixed bg-center bg-cover bg-[url('/assets/crew/background-crew-mobile.jpg')] md:bg-[url('/assets/crew/background-crew-tablet.jpg')] xl:bg-[url('/assets/crew/background-crew-desktop.jpg')]">
       <Header />
       <main className="p-6 md:p-10 xl:pl-40 xl:pr-36 md:pb-0 flex flex-col items-start flex-grow gap-8 md:gap-[60px] xl:gap-0">
         <h5 className="uppercase text-base md:text-xl mx-auto md:mx-0 text-white">

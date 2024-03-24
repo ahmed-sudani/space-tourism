@@ -8,7 +8,7 @@ export default function Destination() {
   const { setPause } = useCarousel(setActive, destinations.length);
 
   return (
-    <div className="h-screen overflow-auto flex flex-col text-white bg-no-repeat bg-fixed bg-center bg-cover bg-[url('assets/destination/background-destination-mobile.jpg')] md:bg-[url('assets/destination/background-destination-tablet.jpg')] xl:bg-[url('assets/destination/background-destination-desktop.jpg')]">
+    <div className="h-screen overflow-auto flex flex-col text-white bg-no-repeat bg-fixed bg-center bg-cover bg-[url('/assets/destination/background-destination-mobile.jpg')] md:bg-[url('/assets/destination/background-destination-tablet.jpg')] xl:bg-[url('/assets/destination/background-destination-desktop.jpg')]">
       <Header />
       <main className="p-6 md:p-10 xl:pl-40 md:pb-0 flex flex-col items-start gap-8 xl:gap-16">
         <h5 className="uppercase text-base md:text-xl mx-auto md:mx-0 text-white">
